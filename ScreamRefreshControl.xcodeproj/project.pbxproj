@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95BAAD661F720D04005F3D08 /* ScreamRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BAAD651F720CB3005F3D08 /* ScreamRefreshControl.swift */; };
+		95C591891F6F7C1200C4405A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C591881F6F7C1200C4405A /* AppDelegate.swift */; };
+		95C5918B1F6F7C1200C4405A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C5918A1F6F7C1200C4405A /* ViewController.swift */; };
+		95C591901F6F7C1200C4405A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95C5918F1F6F7C1200C4405A /* Assets.xcassets */; };
+		95C591931F6F7C1200C4405A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95C591911F6F7C1200C4405A /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95BAAD631F70EE4B005F3D08 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95C5916A1F6F7A1100C4405A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95C591711F6F7A1100C4405A;
+			remoteInfo = ScreamRefreshControl;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		95C591701F6F7A1100C4405A /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		95BAAD651F720CB3005F3D08 /* ScreamRefreshControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreamRefreshControl.swift; sourceTree = "<group>"; };
+		95C591721F6F7A1100C4405A /* libScreamRefreshControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libScreamRefreshControl.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		95C591861F6F7C1200C4405A /* ScreamRefreshControlExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreamRefreshControlExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95C591881F6F7C1200C4405A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95C5918A1F6F7C1200C4405A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95C5918F1F6F7C1200C4405A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		95C591921F6F7C1200C4405A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		95C591941F6F7C1200C4405A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95C5919F1F6F83B200C4405A /* Project.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Project.xcconfig; sourceTree = "<group>"; };
+		95C591A01F6F85F400C4405A /* Warnings.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Warnings.xcconfig; sourceTree = "<group>"; };
+		95C591A11F6F873D00C4405A /* StaticLibTarget.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = StaticLibTarget.xcconfig; sourceTree = "<group>"; };
+		95C591A21F6F8B3C00C4405A /* ExampleAppTarget.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = ExampleAppTarget.xcconfig; sourceTree = "<group>"; };
+		95C591A31F6F907300C4405A /* Project-Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Project-Release.xcconfig"; sourceTree = "<group>"; };
+		95C591A41F6F909500C4405A /* Project-Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = "Project-Debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95C5916F1F6F7A1100C4405A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C591831F6F7C1200C4405A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95C591691F6F7A1100C4405A = {
+			isa = PBXGroup;
+			children = (
+				95C591741F6F7A1100C4405A /* Source */,
+				95C591871F6F7C1200C4405A /* Example */,
+				95C5919E1F6F833F00C4405A /* Configuration */,
+				95C591731F6F7A1100C4405A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95C591731F6F7A1100C4405A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95C591721F6F7A1100C4405A /* libScreamRefreshControl.a */,
+				95C591861F6F7C1200C4405A /* ScreamRefreshControlExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95C591741F6F7A1100C4405A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				95BAAD651F720CB3005F3D08 /* ScreamRefreshControl.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		95C591871F6F7C1200C4405A /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				95C591881F6F7C1200C4405A /* AppDelegate.swift */,
+				95C5918A1F6F7C1200C4405A /* ViewController.swift */,
+				95C5918F1F6F7C1200C4405A /* Assets.xcassets */,
+				95C591911F6F7C1200C4405A /* LaunchScreen.storyboard */,
+				95C591941F6F7C1200C4405A /* Info.plist */,
+			);
+			path = Example;
+			sourceTree = "<group>";
+		};
+		95C5919E1F6F833F00C4405A /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				95C5919F1F6F83B200C4405A /* Project.xcconfig */,
+				95C591A31F6F907300C4405A /* Project-Release.xcconfig */,
+				95C591A41F6F909500C4405A /* Project-Debug.xcconfig */,
+				95C591A11F6F873D00C4405A /* StaticLibTarget.xcconfig */,
+				95C591A21F6F8B3C00C4405A /* ExampleAppTarget.xcconfig */,
+				95C591A01F6F85F400C4405A /* Warnings.xcconfig */,
+			);
+			path = Configuration;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95C591711F6F7A1100C4405A /* ScreamRefreshControl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95C5917B1F6F7A1100C4405A /* Build configuration list for PBXNativeTarget "ScreamRefreshControl" */;
+			buildPhases = (
+				95C5916E1F6F7A1100C4405A /* Sources */,
+				95C5916F1F6F7A1100C4405A /* Frameworks */,
+				95C591701F6F7A1100C4405A /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScreamRefreshControl;
+			productName = ScreamRefreshControl;
+			productReference = 95C591721F6F7A1100C4405A /* libScreamRefreshControl.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		95C591851F6F7C1200C4405A /* ScreamRefreshControlExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95C591951F6F7C1200C4405A /* Build configuration list for PBXNativeTarget "ScreamRefreshControlExample" */;
+			buildPhases = (
+				95C591821F6F7C1200C4405A /* Sources */,
+				95C591831F6F7C1200C4405A /* Frameworks */,
+				95C591841F6F7C1200C4405A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95BAAD641F70EE4B005F3D08 /* PBXTargetDependency */,
+			);
+			name = ScreamRefreshControlExample;
+			productName = ScreamRefreshControlExample;
+			productReference = 95C591861F6F7C1200C4405A /* ScreamRefreshControlExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95C5916A1F6F7A1100C4405A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = SwiftScream;
+				TargetAttributes = {
+					95C591711F6F7A1100C4405A = {
+						CreatedOnToolsVersion = 9.0;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					95C591851F6F7C1200C4405A = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 95C5916D1F6F7A1100C4405A /* Build configuration list for PBXProject "ScreamRefreshControl" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95C591691F6F7A1100C4405A;
+			productRefGroup = 95C591731F6F7A1100C4405A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95C591711F6F7A1100C4405A /* ScreamRefreshControl */,
+				95C591851F6F7C1200C4405A /* ScreamRefreshControlExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95C591841F6F7C1200C4405A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C591931F6F7C1200C4405A /* LaunchScreen.storyboard in Resources */,
+				95C591901F6F7C1200C4405A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95C5916E1F6F7A1100C4405A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95BAAD661F720D04005F3D08 /* ScreamRefreshControl.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95C591821F6F7C1200C4405A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95C5918B1F6F7C1200C4405A /* ViewController.swift in Sources */,
+				95C591891F6F7C1200C4405A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95BAAD641F70EE4B005F3D08 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95C591711F6F7A1100C4405A /* ScreamRefreshControl */;
+			targetProxy = 95BAAD631F70EE4B005F3D08 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95C591911F6F7C1200C4405A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95C591921F6F7C1200C4405A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95C591791F6F7A1100C4405A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C591A41F6F909500C4405A /* Project-Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		95C5917A1F6F7A1100C4405A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C591A31F6F907300C4405A /* Project-Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		95C5917C1F6F7A1100C4405A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C591A11F6F873D00C4405A /* StaticLibTarget.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		95C5917D1F6F7A1100C4405A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C591A11F6F873D00C4405A /* StaticLibTarget.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		95C591961F6F7C1200C4405A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C591A21F6F8B3C00C4405A /* ExampleAppTarget.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		95C591971F6F7C1200C4405A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C591A21F6F8B3C00C4405A /* ExampleAppTarget.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95C5916D1F6F7A1100C4405A /* Build configuration list for PBXProject "ScreamRefreshControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C591791F6F7A1100C4405A /* Debug */,
+				95C5917A1F6F7A1100C4405A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95C5917B1F6F7A1100C4405A /* Build configuration list for PBXNativeTarget "ScreamRefreshControl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C5917C1F6F7A1100C4405A /* Debug */,
+				95C5917D1F6F7A1100C4405A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95C591951F6F7C1200C4405A /* Build configuration list for PBXNativeTarget "ScreamRefreshControlExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95C591961F6F7C1200C4405A /* Debug */,
+				95C591971F6F7C1200C4405A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95C5916A1F6F7A1100C4405A /* Project object */;
+}
