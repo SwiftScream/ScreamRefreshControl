@@ -13,6 +13,7 @@
 //   limitations under the License.
 
 import UIKit
+import ScreamRefreshControl
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -23,6 +24,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.window = UIWindow(frame: UIScreen.main.bounds);
         self.window?.rootViewController = ViewController();
         self.window?.makeKeyAndVisible()
+
+        ModernRefreshControl.appearance().tintColor = UIColor(red: 255/255, green: 162/255, blue: 65/255, alpha: 1)
 
         return true
     }

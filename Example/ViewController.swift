@@ -17,11 +17,51 @@ import Dispatch
 import ScreamRefreshControl
 
 class ViewController: UIViewController {
+    private var tableView: UITableView?
 
     override func loadView() {
         let view = UIView(frame: UIScreen.main.bounds)
+        let tableView = UITableView(frame: view.bounds, style: .grouped)
+        tableView.autoresizingMask = [.flexibleWidth, .flexibleHeight]
+        tableView.dataSource = self
+        tableView.delegate = self
+        tableView.register(UITableViewCell.self, forCellReuseIdentifier: "Cell")
+        tableView.refreshControl = ModernRefreshControl()
+        tableView.refreshControl?.addTarget(self, action: #selector(ViewController.didPullToRefresh), for: .valueChanged)
+        self.tableView = tableView
 
+        view.addSubview(tableView)
         self.view = view
     }
 
+    @objc func didPullToRefresh() {
+        let duration = DispatchTimeInterval.milliseconds(Int(arc4random_uniform(4000)))
+        DispatchQueue.main.asyncAfter(deadline: .now() + duration) {
+            self.tableView?.refreshControl?.endRefreshing()
+        }
+    }
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+    }
+
+}
+
+extension ViewController : UITableViewDataSource {
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return 20
+    }
+
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "Cell", for: indexPath)
+        cell.textLabel?.text = "Cell \(indexPath.row)"
+        return cell
+    }
+}
+
+extension ViewController : UITableViewDelegate {
+    func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+        tableView.refreshControl?.beginRefreshing()
+        self.didPullToRefresh()
+    }
 }

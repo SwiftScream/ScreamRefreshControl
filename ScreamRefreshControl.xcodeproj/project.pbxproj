@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		95BAAD661F720D04005F3D08 /* ScreamRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95BAAD651F720CB3005F3D08 /* ScreamRefreshControl.swift */; };
+		95C591801F6F7A6500C4405A /* ModernRefreshControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C5917E1F6F7A6500C4405A /* ModernRefreshControl.swift */; };
 		95C591891F6F7C1200C4405A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C591881F6F7C1200C4405A /* AppDelegate.swift */; };
 		95C5918B1F6F7C1200C4405A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95C5918A1F6F7C1200C4405A /* ViewController.swift */; };
 		95C591901F6F7C1200C4405A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95C5918F1F6F7C1200C4405A /* Assets.xcassets */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		95BAAD651F720CB3005F3D08 /* ScreamRefreshControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreamRefreshControl.swift; sourceTree = "<group>"; };
 		95C591721F6F7A1100C4405A /* libScreamRefreshControl.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libScreamRefreshControl.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		95C5917E1F6F7A6500C4405A /* ModernRefreshControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModernRefreshControl.swift; sourceTree = "<group>"; };
 		95C591861F6F7C1200C4405A /* ScreamRefreshControlExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScreamRefreshControlExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		95C591881F6F7C1200C4405A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		95C5918A1F6F7C1200C4405A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -94,6 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				95BAAD651F720CB3005F3D08 /* ScreamRefreshControl.swift */,
+				95C5917E1F6F7A6500C4405A /* ModernRefreshControl.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -219,6 +222,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				95BAAD661F720D04005F3D08 /* ScreamRefreshControl.swift in Sources */,
+				95C591801F6F7A6500C4405A /* ModernRefreshControl.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
